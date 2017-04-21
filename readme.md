@@ -15,30 +15,43 @@ $ npm install --save read-babelrc-up
 ```js
 const readBabelrcUp = require('read-babelrc-up');
 
-readBabelrcUp('unicorns');
-//=> 'unicorns & rainbows'
+readBabelrcUp().then(result => {
+  console.log(result);
+  /*
+  {
+    babel:
+     { presets: [ 'es2015', 'react' ],
+      plugins: [ 'transform-class-properties' ] },
+    path: '/Users/akameco/src/my-babel-app/.babelrc'
+  }
+  */
+});
 ```
 
 
 ## API
 
-### readBabelrcUp(input, [options])
+### readBabelrcUp([options])
 
-#### input
+Returns a `Promise` for the result object.
 
-Type: `string`
+### readBabelrcUp.sync([options])
 
-Lorem ipsum.
+Return the result object.
 
 #### options
 
 ##### foo
 
-Type: `boolean`<br>
-Default: `false`
+Type: `string`<br>
+Default: `.`
 
-Lorem ipsum.
+Directory to start looking for .babelrc file.
 
+
+## Related
+
+- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories
 
 ## License
 
