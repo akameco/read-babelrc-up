@@ -41,7 +41,7 @@ Return the result object.
 
 #### options
 
-##### foo
+##### cwd
 
 Type: `string`<br>
 Default: `.`
