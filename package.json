@@ -1,0 +1,41 @@
+{
+  "name": "read-babelrc-up",
+  "version": "0.0.0",
+  "description": "Read the closet .babelrc file",
+  "license": "MIT",
+  "repository": "akameco/read-babelrc-up",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "babel",
+    "babelrc",
+    ".babelrc",
+    "json",
+    "file",
+    "parse",
+    "load",
+    "look-up",
+    "walk",
+    "path"
+  ],
+  "dependencies": {
+    "find-up": "^2.1.0",
+    "load-json-file": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.1"
+  }
+}
