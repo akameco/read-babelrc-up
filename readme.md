@@ -1,4 +1,5 @@
-# read-babelrc-up [![Build Status](https://travis-ci.org/akameco/read-babelrc-up.svg?branch=master)](https://travis-ci.org/akameco/read-babelrc-up)
+# read-babelrc-up
+[![wercker status](https://app.wercker.com/status/e7cd81ca76b5f657501d9da680ca8c62/m/master "wercker status")](https://app.wercker.com/project/byKey/e7cd81ca76b5f657501d9da680ca8c62) [![Build Status](https://travis-ci.org/akameco/read-babelrc-up.svg?branch=master)](https://travis-ci.org/akameco/read-babelrc-up) 
 
 > Read the closet .babelrc file
 
