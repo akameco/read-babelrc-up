@@ -1220,9 +1220,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-precure@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-0.3.1.tgz#df5f675b8a30b90e00b93cae56b3f63a74736f77"
+eslint-config-precure@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-0.3.2.tgz#963ce2e1d7a3d1d2d59cda6822d5739b4df808cb"
   dependencies:
     babel-eslint "^7.2.3"
     eslint-config-prettier "^1.7.0"
