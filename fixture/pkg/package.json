@@ -1,0 +1,7 @@
+{
+  "babel": {
+    "plugins": [
+      "transform-class-properties"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async 1`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+    "presets": Array [
+      "es2015",
+      "react",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrc/.babelrc",
+}
+`;
+
+exports[`parse babelrc.js - sync 1`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+    "presets": Array [
+      "es2015",
+      "react",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrcjs/.babelrc.js",
+}
+`;
+
+exports[`parse babelrc.js 1`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+    "presets": Array [
+      "es2015",
+      "react",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrcjs/.babelrc.js",
+}
+`;
+
+exports[`parse package.json - sync 1`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/pkg/package.json",
+}
+`;
+
+exports[`parse package.json - sync 2`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/pkg/package.json",
+}
+`;
+
+exports[`parse package.json 1`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/pkg/package.json",
+}
+`;
+
+exports[`sync 1`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+    "presets": Array [
+      "es2015",
+      "react",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrc/.babelrc",
+}
+`;
+
+exports[`sync 2`] = `
+Object {
+  "babel": Object {
+    "plugins": Array [
+      "transform-class-properties",
+    ],
+  },
+  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/pkg/package.json",
+}
+`;
