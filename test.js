@@ -12,7 +12,7 @@ test('async', async t => {
   t.is(x.path, babelrcPath)
   t.deepEqual(x.babel.presets, ['es2015', 'react'])
   t.deepEqual(x.babel.plugins, ['transform-class-properties'])
-  t.snapshot(x)
+  t.snapshot(x.babel)
 })
 
 test('sync', t => {
@@ -21,7 +21,7 @@ test('sync', t => {
   t.is(x.path, babelrcPath)
   t.deepEqual(x.babel.presets, ['es2015', 'react'])
   t.deepEqual(x.babel.plugins, ['transform-class-properties'])
-  t.snapshot(x)
+  t.snapshot(x.babel)
 })
 
 test('parse package.json', async t => {
@@ -29,7 +29,7 @@ test('parse package.json', async t => {
   const x = await fn({ cwd })
   t.is(x.path, pkgPath)
   t.deepEqual(x.babel.plugins, ['transform-class-properties'])
-  t.snapshot(x)
+  t.snapshot(x.babel)
 })
 
 test('parse package.json - sync', t => {
@@ -37,7 +37,7 @@ test('parse package.json - sync', t => {
   const x = fn.sync({ cwd })
   t.is(x.path, pkgPath)
   t.deepEqual(x.babel.plugins, ['transform-class-properties'])
-  t.snapshot(x)
+  t.snapshot(x.babel)
 })
 
 test('parse babelrc.js', async t => {
@@ -45,7 +45,7 @@ test('parse babelrc.js', async t => {
   const x = await fn({ cwd })
   t.is(x.path, babelrcJsPath)
   t.deepEqual(x.babel.plugins, ['transform-class-properties'])
-  t.snapshot(x)
+  t.snapshot(x.babel)
 })
 
 test('parse babelrc.js - sync', t => {
@@ -53,5 +53,5 @@ test('parse babelrc.js - sync', t => {
   const x = fn.sync({ cwd })
   t.is(x.path, babelrcJsPath)
   t.deepEqual(x.babel.plugins, ['transform-class-properties'])
-  t.snapshot(x)
+  t.snapshot(x.babel)
 })

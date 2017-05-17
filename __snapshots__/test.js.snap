@@ -2,57 +2,45 @@
 
 exports[`async 1`] = `
 Object {
-  "babel": Object {
-    "plugins": Array [
-      "transform-class-properties",
-    ],
-    "presets": Array [
-      "es2015",
-      "react",
-    ],
-  },
-  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrc/.babelrc",
+  "plugins": Array [
+    "transform-class-properties",
+  ],
+  "presets": Array [
+    "es2015",
+    "react",
+  ],
 }
 `;
 
 exports[`parse babelrc.js - sync 1`] = `
 Object {
-  "babel": Object {
-    "plugins": Array [
-      "transform-class-properties",
-    ],
-    "presets": Array [
-      "es2015",
-      "react",
-    ],
-  },
-  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrcjs/.babelrc.js",
+  "plugins": Array [
+    "transform-class-properties",
+  ],
+  "presets": Array [
+    "es2015",
+    "react",
+  ],
 }
 `;
 
 exports[`parse babelrc.js 1`] = `
 Object {
-  "babel": Object {
-    "plugins": Array [
-      "transform-class-properties",
-    ],
-    "presets": Array [
-      "es2015",
-      "react",
-    ],
-  },
-  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrcjs/.babelrc.js",
+  "plugins": Array [
+    "transform-class-properties",
+  ],
+  "presets": Array [
+    "es2015",
+    "react",
+  ],
 }
 `;
 
 exports[`parse package.json - sync 1`] = `
 Object {
-  "babel": Object {
-    "plugins": Array [
-      "transform-class-properties",
-    ],
-  },
-  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/pkg/package.json",
+  "plugins": Array [
+    "transform-class-properties",
+  ],
 }
 `;
 
@@ -69,27 +57,21 @@ Object {
 
 exports[`parse package.json 1`] = `
 Object {
-  "babel": Object {
-    "plugins": Array [
-      "transform-class-properties",
-    ],
-  },
-  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/pkg/package.json",
+  "plugins": Array [
+    "transform-class-properties",
+  ],
 }
 `;
 
 exports[`sync 1`] = `
 Object {
-  "babel": Object {
-    "plugins": Array [
-      "transform-class-properties",
-    ],
-    "presets": Array [
-      "es2015",
-      "react",
-    ],
-  },
-  "path": "/Users/akameco/src/github.com/akameco/read-babelrc-up/fixture/babelrc/.babelrc",
+  "plugins": Array [
+    "transform-class-properties",
+  ],
+  "presets": Array [
+    "es2015",
+    "react",
+  ],
 }
 `;
 
