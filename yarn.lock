@@ -1220,9 +1220,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-precure@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-0.3.2.tgz#963ce2e1d7a3d1d2d59cda6822d5739b4df808cb"
+eslint-config-precure@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-0.5.0.tgz#115dc6e040ab606819e86bb7a9a220f5f7408877"
   dependencies:
     babel-eslint "^7.2.3"
     eslint-config-prettier "^1.7.0"
@@ -2353,9 +2353,9 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-3.4.1.tgz#96cd1cf7a1ac92d81662643c37d1cca28b91b046"
+lint-staged@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-3.4.2.tgz#9cd1c0e4e477326c2696802a8377c22f92d65e79"
   dependencies:
     app-root-path "^2.0.0"
     cosmiconfig "^1.1.0"
