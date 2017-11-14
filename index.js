@@ -10,6 +10,7 @@ const PKG = 'package.json'
 
 const readConfigJs = fp => {
   try {
+    // eslint-disable-next-line global-require,import/no-dynamic-require
     const configModule = require(fp)
     return configModule && configModule.__esModule
       ? configModule.default || undefined
