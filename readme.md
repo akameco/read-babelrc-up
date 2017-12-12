@@ -1,8 +1,9 @@
 # read-babelrc-up
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/akameco/read-babelrc-up.svg?branch=master)](https://travis-ci.org/akameco/read-babelrc-up)
 
 > Read the closet .babelrc or .babelrc.js or babel in package.json.
-
 
 ## Install
 
@@ -10,14 +11,13 @@
 $ npm install --save read-babelrc-up
 ```
 
-
 ## Usage
 
 ```js
-const readBabelrcUp = require('read-babelrc-up');
+const readBabelrcUp = require('read-babelrc-up')
 
 readBabelrcUp().then(result => {
-  console.log(result);
+  console.log(result)
   /*
   {
     babel:
@@ -26,9 +26,8 @@ readBabelrcUp().then(result => {
     path: '/Users/akameco/src/my-babel-app/.babelrc'
   }
   */
-});
+})
 ```
-
 
 ## API
 
@@ -49,10 +48,23 @@ Default: `.`
 
 Directory to start looking for .babelrc file.
 
-
 ## Related
 
-- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories
+* [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;"/><br /><sub><b>akameco</b></sub>](http://akameco.github.io)<br />[💻](https://github.com/akameco/read-babelrc-up/commits?author=akameco "Code") [📖](https://github.com/akameco/read-babelrc-up/commits?author=akameco "Documentation") [⚠️](https://github.com/akameco/read-babelrc-up/commits?author=akameco "Tests") [🚇](#infra-akameco "Infrastructure (Hosting, Build-Tools, etc)") |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
 
 ## License
 
