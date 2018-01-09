@@ -16,13 +16,13 @@
     "add-contributor": "all-contributors add",
     "precommit": "lint-staged",
     "fmt": "prettier --write '*.{js,json,md}'",
-    "test": "eslint . && ava"
+    "lint": "eslint .",
+    "test": "npm run lint && ava"
   },
   "files": ["index.js"],
   "lint-staged": {
     "*.js": ["fmt", "test", "git add"],
-    "*.json": ["fmt", "git add"],
-    "*.md": ["fmt", "git add"]
+    "*.{json,md}": ["fmt", "git add"]
   },
   "keywords": [
     "babel",
