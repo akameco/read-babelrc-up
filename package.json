@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "find-up": "^2.1.0",
-    "json5": "^0.5.1"
+    "json5": "^1.0.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^4.10.1",
