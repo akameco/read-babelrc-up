@@ -19,10 +19,19 @@
     "lint": "eslint .",
     "test": "npm run lint && ava"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "lint-staged": {
-    "*.js": ["fmt", "test", "git add"],
-    "*.{json,md}": ["fmt", "git add"]
+    "*.js": [
+      "fmt",
+      "test",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "fmt",
+      "git add"
+    ]
   },
   "keywords": [
     "babel",
@@ -38,15 +47,15 @@
   ],
   "dependencies": {
     "find-up": "^2.1.0",
-    "json5": "^0.5.1"
+    "json5": "^1.0.0"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.10.1",
+    "all-contributors-cli": "^4.11.1",
     "ava": "^0.25.0",
-    "eslint": "^4.15.0",
+    "eslint": "^4.19.0",
     "eslint-config-precure": "^2.4.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
-    "prettier": "^1.9.2"
+    "prettier": "^1.11.1"
   }
 }
