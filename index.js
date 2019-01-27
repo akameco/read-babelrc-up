@@ -15,9 +15,9 @@ const readConfigJs = fp => {
     return configModule && configModule.__esModule
       ? configModule.default || undefined
       : configModule
-  } catch (err) {
-    err.message = `${fp}: Error while loading config = ${err.message}`
-    throw err
+  } catch (error) {
+    error.message = `${fp}: Error while loading config = ${error.message}`
+    throw error
   }
 }
 
