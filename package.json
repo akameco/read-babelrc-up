@@ -1,6 +1,6 @@
 {
   "name": "read-babelrc-up",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Read the closet .babelrc file",
   "license": "MIT",
   "repository": "akameco/read-babelrc-up",
