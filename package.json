@@ -49,12 +49,12 @@
     "json5": "^2.1.0"
   },
   "devDependencies": {
-    "all-contributors-cli": "^6.7.0",
-    "ava": "^2.2.0",
-    "eslint": "^6.0.1",
-    "eslint-config-precure": "^4.17.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.2.0",
+    "all-contributors-cli": "^6.8.2",
+    "ava": "^2.3.0",
+    "eslint": "^6.3.0",
+    "eslint-config-precure": "^5.0.2",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
     "prettier": "^1.18.2"
   },
   "husky": {
