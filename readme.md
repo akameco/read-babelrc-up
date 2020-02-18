@@ -51,7 +51,7 @@ Directory to start looking for .babelrc file.
 
 ## Related
 
-* [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories
+- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories
 
 ## Contributors
 
