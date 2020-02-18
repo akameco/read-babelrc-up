@@ -4,8 +4,16 @@ const fs = require('fs')
 const findUp = require('find-up')
 const json5 = require('json5')
 
-const BABELRC = '.babelrc'
-const BABELRC_JS = '.babelrc.js'
+// https://babeljs.io/docs/en/config-files#supported-file-extensions
+const BABELRC = ['.babelrc', '.babelrc.json', 'babel.config.json']
+const BABELRC_JS = [
+  '.babelrc.js',
+  '.babelrc.cjs',
+  '.babelrc.mjs',
+  'babel.config.js',
+  'babel.config.cjs',
+  'babel.config.mjs',
+]
 const PKG = 'package.json'
 
 const readConfigJs = fp => {
@@ -24,11 +32,13 @@ const readConfigJs = fp => {
 const loadConfig = fp => {
   const file = path.basename(fp)
   const obj = fs.readFileSync(fp, 'utf-8')
+  const matchBabelRc = /^(?<babelrc>\.babelrc(?:.json|$)|babel\.config\.json)$/giu
+  const matchBabelRcJs = /^(?<babelrc>\.babelrc|babel\.config)[.](?:js|cjs|mjs)$/giu
 
   switch (file) {
-    case BABELRC_JS:
+    case matchBabelRcJs.test(file) ? file : null:
       return readConfigJs(fp)
-    case BABELRC:
+    case matchBabelRc.test(file) ? file : null:
       return json5.parse(obj)
     case PKG:
       return JSON.parse(obj).babel
@@ -38,7 +48,7 @@ const loadConfig = fp => {
 }
 
 module.exports = opts => {
-  return findUp([BABELRC, BABELRC_JS, PKG], opts).then(fp => {
+  return findUp([...BABELRC, ...BABELRC_JS, PKG], opts).then(fp => {
     if (!fp) {
       return {}
     }
@@ -50,7 +60,7 @@ module.exports = opts => {
 }
 
 module.exports.sync = opts => {
-  const fp = findUp.sync([BABELRC, BABELRC_JS, PKG], opts)
+  const fp = findUp.sync([...BABELRC, ...BABELRC_JS, PKG], opts)
 
   if (!fp) {
     return {}
