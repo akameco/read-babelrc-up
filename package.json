@@ -7,7 +7,7 @@
   "author": {
     "name": "akameco",
     "email": "akameco.t@gmail.com",
-    "url": "akameco.github.io"
+    "url": "https://akameco.github.io"
   },
   "engines": {
     "node": ">=8"
