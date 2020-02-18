@@ -4,7 +4,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-> Read the closet .babelrc or .babelrc.js or babel in package.json.
+> Read the closet [Babel configuration file](https://babeljs.io/docs/en/config-files) or `babel` in package.json.
 
 ## Install
 
@@ -58,9 +58,17 @@ Directory to start looking for .babelrc file.
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://akameco.github.io"><img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;" alt="akameco"/><br /><sub><b>akameco</b></sub></a><br /><a href="https://github.com/akameco/read-babelrc-up/commits?author=akameco" title="Code">💻</a> <a href="https://github.com/akameco/read-babelrc-up/commits?author=akameco" title="Documentation">📖</a> <a href="https://github.com/akameco/read-babelrc-up/commits?author=akameco" title="Tests">⚠️</a> <a href="#infra-akameco" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td></tr></table>
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://akameco.github.io"><img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;" alt=""/><br /><sub><b>akameco</b></sub></a><br /><a href="https://github.com/akameco/read-babelrc-up/commits?author=akameco" title="Code">💻</a> <a href="https://github.com/akameco/read-babelrc-up/commits?author=akameco" title="Documentation">📖</a> <a href="https://github.com/akameco/read-babelrc-up/commits?author=akameco" title="Tests">⚠️</a> <a href="#infra-akameco" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="http://jiyoonjang.com"><img src="https://avatars2.githubusercontent.com/u/26544?v=4" width="100px;" alt=""/><br /><sub><b>Jiyoon Jang</b></sub></a><br /><a href="https://github.com/akameco/read-babelrc-up/commits?author=stephenjang" title="Code">💻</a> <a href="https://github.com/akameco/read-babelrc-up/commits?author=stephenjang" title="Tests">⚠️</a></td>
+  </tr>
+</table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
