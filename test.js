@@ -4,7 +4,26 @@ import fn from '.'
 
 const babelrcPath = path.resolve('fixture', 'babelrc', '.babelrc')
 const babelrcJsPath = path.resolve('fixture', 'babelrcjs', '.babelrc.js')
+const babelConfigJsPath = path.resolve(
+  'fixture',
+  'babelconfigjs',
+  'babel.config.js'
+)
 const pkgPath = path.resolve('fixture', 'pkg', 'package.json')
+
+test('parse babel.config.js', async t => {
+  const cwd = path.join('fixture', 'babelconfigjs')
+  const { path: p, babel } = await fn({ cwd })
+  t.is(p, babelConfigJsPath)
+  t.snapshot(babel)
+})
+
+test('parse babel.config.js - sync', t => {
+  const cwd = path.join('fixture', 'babelconfigjs')
+  const { path: p, babel } = fn.sync({ cwd })
+  t.is(p, babelConfigJsPath)
+  t.snapshot(babel)
+})
 
 test('async', async t => {
   const cwd = path.join('fixture', 'babelrc', 'app')
