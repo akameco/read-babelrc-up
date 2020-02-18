@@ -18,6 +18,18 @@
         "test",
         "infra"
       ]
+    },
+    {
+      "login": "stephenjang",
+      "name": "Jiyoon Jang",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26544?v=4",
+      "profile": "http://jiyoonjang.com",
+      "contributions": [
+        "code",
+        "test"
+      ]
     }
-  ]
+  ],
+  "repoType": "github",
+  "commitConvention": "none"
 }
