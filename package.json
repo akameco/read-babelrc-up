@@ -44,6 +44,7 @@
     "path"
   ],
   "dependencies": {
+    "@types/babel__core": "^7.1.12",
     "find-up": "^4.1.0",
     "json5": "^2.1.2"
   },
